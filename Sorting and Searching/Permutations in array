@@ -1,0 +1,17 @@
+class Solution {
+    public boolean isPossible(long a[], long b[], int n, long k) {
+        // Your code goes here
+        Arrays.sort(a);
+        Arrays.sort(b);
+        long c[]=new long[n];
+        for(int i =0; i<n; i++){
+            c[i]=b[n-1-i];
+        }
+        for(int i =0; i<n; i++){
+            if(a[i]+c[i]<k){
+                return false;
+            }
+        }
+        return true;
+    }
+}
