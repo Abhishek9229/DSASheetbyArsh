@@ -8,7 +8,6 @@ This repository contains a collection of Data Structures and Algorithms (DSA) qu
 - [Contents](#contents)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
